@@ -1,0 +1,23 @@
+[
+    {
+        "id": "4048e751-5e7e-4bb2-a36d-faa2224838d5",
+        "name": "Fiesta",
+        "releaseYear": 2021,
+        "available": true,
+        "gasAvailable": true
+    },
+    {
+        "id": "6ec045e7-2a3c-41c3-a58b-2013cef5080e",
+        "name": "V90",
+        "releaseYear": 2020,
+        "available": true,
+        "gasAvailable": true
+    },
+    {
+        "id": "f6ae0f6a-e379-4176-8a18-55e3ea5ce7f1",
+        "name": "Grand Cherokee",
+        "releaseYear": 2020,
+        "available": true,
+        "gasAvailable": true
+    }
+]

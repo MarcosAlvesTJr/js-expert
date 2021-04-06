@@ -7,13 +7,18 @@
     "test": "tests"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "npx mocha -w **/**/*.test.js",
+    "test:cov": "npx nyc npx mocha --parallel **/**/*.test.js",
     "seed": "node ./seed"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "faker": "^5.5.2"
+    "chai": "^4.3.4",
+    "faker": "^5.5.2",
+    "mocha": "^8.3.2",
+    "nyc": "^15.1.0",
+    "sinon": "^9.2.4"
   }
 }

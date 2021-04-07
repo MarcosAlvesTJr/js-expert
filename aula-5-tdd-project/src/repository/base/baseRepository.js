@@ -9,7 +9,7 @@ class BaseRepository {
 
         if (!itemId) return content
 
-        return content.find({ id } = id === itemId)
+        return content.find(({ id }) => id === itemId)
     }
 }
 
